@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title WS Garbage and Waste Management UG
+    body 
+        h1 LogIn 
+        form(name= "logInForm")
+        label
+        | Username: 
+        input#username(type='text')
+        label
+        | Password: 
+        input#pwd(type='password')
+        input.login(type='submit' value='Log In' onclick='validation()' formtarget='_blank')
